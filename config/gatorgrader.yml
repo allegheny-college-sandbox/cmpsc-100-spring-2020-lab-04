@@ -5,7 +5,7 @@ indent: 4
 ---
 
 src/main/java/labthree:
-    HatPotion.java:
+    HatPurchase.java:
         ConfirmFileExists
         CountSingleLineComments --language Java --count 8
         MatchFileFragment --fragment "TODO" --count 0 --exact
@@ -27,5 +27,4 @@ writing:
         
 CountCommits --count 3
 ExecuteCommand --command "gradle build"
-CountCommandOutput --command "gradle -q --console plain run" --count 5 --exact
-MatchCommandFragment --command "gradle -q --console plain run" --fragment "8 ounces" --count 1 --exact
+CountCommandOutput --command "gradle -q --console plain run" --count 9 --exact
