@@ -4,7 +4,7 @@ break: true
 indent: 4
 ---
 
-src/main/java/labthree:
+src/main/java/labfour:
     HatPurchase.java:
         ConfirmFileExists
         CountSingleLineComments --language Java --count 8
